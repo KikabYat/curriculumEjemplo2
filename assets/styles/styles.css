@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedorImgTitulo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+}
+.contenedorImgRostro{
+    width: 150px;
+    margin-top: 12px;
+
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+.tituloNav{
+    width: 150px;
+}
