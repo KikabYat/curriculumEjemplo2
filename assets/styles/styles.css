@@ -27,6 +27,10 @@
     width: 150px;
 }
 
+.tablaInformacionPersonal{
+    display: flex;
+    align-items: center;
+}
 /* .contenedorProfesionalSkills-Employment{
     width: 100%;
 } */
