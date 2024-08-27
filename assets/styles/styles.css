@@ -26,3 +26,22 @@
 .tituloNav{
     width: 150px;
 }
+
+/* .contenedorProfesionalSkills-Employment{
+    width: 100%;
+} */
+
+.carousel-item img{
+    width: 250px;
+    height: 450px;
+    border: 3px solid black;
+
+}
+
+#listadoEmpleos{
+    display: flex;
+    flex-direction: column;
+}
+#listadoEmpleos li{
+    list-style: none;
+}
