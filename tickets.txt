@@ -1,0 +1,12 @@
+tikets curriculum
+- arregar la vista responsiva de los elementos del nav, ya que 
+cuando se ponen en pantallas mas pequeñas son del mismo tamaño.
+- cuando se pone en vista de celular o tableta, poner en solo una columna la parte de
+donde dice informacion personal (tabla), y Experiencia a parte en una columna 
+que ocupe el 100% del ancho de pagina, y lo mismo para donde esta el Profesional Skills
+(carrusel) y lo mismo para donde esta lo del Employment.
+- cambiarle de titulo o de apariencia a la parte del NavBar (titulo)
+- ponerle borde redondeado y con sombra a la imagen de la persona.
+- hacer responsivas las imágenes del carrusel, cambiarles de tamaño volviendolas
+mas pequeñas a medida que se vuelven mas pequeña la pantalla.
+- la parte de derechos reservados realiarla de manera mas profesional.
