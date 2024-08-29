@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, .navbar{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
 
 .contenedorImgTitulo{
     display: flex;
@@ -12,6 +16,7 @@
 .titulo{
     display: flex;
     align-items: center;
+    font-size: 50px;
 }
 .contenedorImgRostro{
     width: 150px;
@@ -19,13 +24,17 @@
 
 }
 
+.contenedorImgRostro img{
+    border-radius: 25%;
+}
+
 .navbar-nav{
     margin: auto;
 }
 
-/* .tituloNav{
+.tituloNav{
     width: 150px;
-} */
+}
 
 .tablaInformacionPersonal{
     display: flex;
@@ -36,9 +45,9 @@
 } */
 
 .carousel-item img{
-    width: 250px;
     height: 450px;
     border: 3px solid black;
+    margin: 1px;
 
 }
 
@@ -48,4 +57,61 @@
 }
 #listadoEmpleos li{
     list-style: none;
+}
+
+
+footer{
+    margin-top: 35px;
+    color: brown;
+}
+
+
+/*
+@Media Queries
+*/
+
+/*Dispositivos grandes (computadoras portátiles/computadoras de escritorio, 992px y arriba*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .tituloNav{
+        width: 150px;
+    }
+
+    .carousel-item img{
+        width: 250px;
+        height: 450px;
+    }
+    
+}
+
+
+
+/*Dispositivos medios (tabletas de paisaje, 768px y arriba*/
+@media screen and (min-width:768px) and (max-width:992px) {
+   
+    .tituloNav{
+        width: 100%;
+    }
+    
+    .carousel-item img{
+        height: 380px;
+    }
+
+}
+
+
+
+/*Dispositivos pequeños (tabletas de retrato y teléfonos grandes, 600px y arriba 768px)*/
+@media (max-width:768px) {
+    .titulo{
+        font-size: 40px;
+    }
+    
+    .tituloNav{
+        width: 100%;
+    }
+
+    .carousel-item img{
+        height: 320px;
+    }
+
 }
